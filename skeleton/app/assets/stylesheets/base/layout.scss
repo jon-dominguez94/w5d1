@@ -10,25 +10,26 @@ body {
   margin: auto;
   font-family: $serif;
   font-size: 12px;
+  // background:yellow;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: $light-blue;
+	border-color: $darkest-blue;
+	color: white;
+	font-weight:100px;
+	padding:2px 6px;
+	border-radius:3px;
+	transition: auto;
+	font-family:inherit;
+	text-transform:inherit;
+	font-size:inherit;
+	text-align:center;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $dark-blue;
+	border-color: $darkest-blue;
 }
 
 /*
