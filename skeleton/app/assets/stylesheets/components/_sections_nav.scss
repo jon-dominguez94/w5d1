@@ -1,0 +1,17 @@
+.sectionhead-links {
+	display: flex;
+  justify-content: space-around;
+	font-family: $sans-serif;
+  width: 70%;
+  font-size: 9px;
+	margin-bottom: 10px;
+  margin:auto;
+  margin-top: 10px;
+}
+.sectionhead-links li a:hover{
+  text-decoration: underline;
+  background: $light-gray;
+}
+.sectionhead-links li:last-child{
+  text-decoration: underline;
+}
